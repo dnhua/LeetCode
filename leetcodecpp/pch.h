@@ -8,7 +8,13 @@
 
 #ifndef PCH_H
 #define PCH_H
-
+#include <vector>
+#include <string>
+#include <stack>
+#include <iostream>
+#include <algorithm>
+#include <math.h>
+#include "TreeNode.h"
 // TODO: 添加要在此处预编译的标头
 
 #endif //PCH_H

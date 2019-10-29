@@ -13,9 +13,15 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\newcode">
+      <UniqueIdentifier>{9e411311-2ee8-4916-aa26-e3830772f2a7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeNode.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -25,6 +31,12 @@
     </ClCompile>
     <ClCompile Include="leetcodecpp.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="s1.cpp">
+      <Filter>源文件\newcode</Filter>
+    </ClCompile>
+    <ClCompile Include="s2.cpp">
+      <Filter>源文件\newcode</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
